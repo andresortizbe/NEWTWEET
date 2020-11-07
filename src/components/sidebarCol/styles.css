@@ -1,0 +1,11 @@
+.t-sidebar-col
+{
+height: 95vh;
+overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 95vh;
+    box-sizing: border-box;
+    
+
+}

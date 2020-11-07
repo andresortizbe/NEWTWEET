@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.5fr 0.6fr 0.6fr 2.3fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "searchbar searchbar searchbar searchbar"
+      "title . . image"
+      "subtitle . . image"
+      "content content content content"
+      ". . . ."
+      ". . . .";
+  }
+  .searchbar { grid-area: searchbar; }
+  .title { grid-area: title; }
+  .subtitle { grid-area: subtitle; }
+  .image { grid-area: image; }
+  .content { grid-area: content; }

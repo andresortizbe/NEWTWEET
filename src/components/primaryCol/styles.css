@@ -1,0 +1,7 @@
+.t-col-container {
+    
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 95vh;
+}

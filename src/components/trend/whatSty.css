@@ -1,0 +1,52 @@
+.what {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1.2fr 1fr;
+  grid-template-rows: 0.2fr 0.5fr 0.5fr 0.4fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "title title image image"
+    "subtitle subtitle image image"
+    "content content content content"
+    "category category notweets noTweets";
+    max-height: min-content;
+    box-sizing: border-box;
+    padding: 10px;
+    
+  }
+  .title { grid-area: title;text-align:left; font-size: large;font-weight:bold;  }
+  .subtitle { grid-area: subtitle; text-align:left; font-size: small;color:Gray;}
+  .image { grid-area: image; }
+  .content { 
+    margin-top: 10px;
+    grid-area: content; 
+    text-align: justify; 
+    font-size:large;
+    font-weight: bold;
+  }
+  .contImg{
+    width: 32%;
+    padding: 0.8em;
+    cursor: pointer;
+    transition: .2s all;
+    
+  }
+  .headTitle
+  {
+   text-align: left;
+  }
+  .category { grid-area: category;margin-top: -20px; }
+  
+  .notweets { grid-area: notweets;margin-top: -20px; }
+  
+  .demo form{
+    
+    width: 100px;
+    
+}
+.demo
+{
+  margin-left: 2px;
+  margin-top: 15px;
+  
+}
+
