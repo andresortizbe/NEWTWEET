@@ -17,20 +17,7 @@ class Trend extends React.Component {
 
     render() {
 
-         const {category, title, noTweets} = 
-            {
-            category: "",
-            title: "",
-            noTweets: "",
-             };
-         const {comments, likes, retweets, content} = {
-                title: "",
-                subtitle: "",
-                content: "",
-                imageUrl:"",
-                category: "",
-                noTweets: "",
-                };
+        
 
                 return (
                     

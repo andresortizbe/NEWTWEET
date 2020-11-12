@@ -3,15 +3,27 @@ import './styles.css';
 import {
     HeartSolid,
     ShareSolid,
-    AnnotationSolid
+    AnnotationSolid,
+    DotsVerticalOutline
 } from "@graywolfai/react-heroicons";
+import ContextMenu from '../contextMenu/context-menu';
 
 class Tweet extends React.Component {
     render() {
         return (
+            
             <div className="tweet-container">
+                <div className="contextual-container">
+                    <div className="contextual-menu" onClick={() => this.props.contextFn.toggleContextMenuFn(this.props.indice)} >
+                        <DotsVerticalOutline />
+                    </div>
+                    { this.props.showContextM ? (<ContextMenu removeFn={this.props.contextFn.removeTweetFn} index={this.props.indice} />) : null}
+                    </div>
+
+
                 <div className="row">
                     <div className="c1">
+
                         <img src={this.props.profileUrl} alt="profile" />
                     </div>
                     <div className="c2">
@@ -30,16 +42,16 @@ class Tweet extends React.Component {
                     </p>
                 </div>
                 <div class="interact-container">
-                    <div class="contInt"> < AnnotationSolid /> </div>
-                   
-                    <div class="comments"><h6 class="barTweet">{this.props.comments}</h6></div>
-                    <div class="contInt">< ShareSolid /></div>
+                    <div class="contInt" onClick={() => this.props.selectedC(this.props.indice)}> < AnnotationSolid /> </div>
+                    <div class="comments" ><h6 class="barTweet">{this.props.comments}</h6></div>
+                    <div class="contInt" onClick={() => this.props.selectedR(this.props.indice)}>< ShareSolid /></div>
                     <div class="share"><h6 class="barTweet">{this.props.retweets}</h6></div>
-                    <div class="contInt">< HeartSolid /></div>
+                    <div class="contInt" onClick={() => this.props.selectedL(this.props.indice)}>< HeartSolid /></div>
                     <div class="likes"> <h6 class="barTweet">{this.props.likes} </h6></div>
                 </div>
-
-            </div>
+                </div>
+            
+        
         )
     }
 }

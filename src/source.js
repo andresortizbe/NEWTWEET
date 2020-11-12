@@ -1,6 +1,9 @@
 const feed = [
     {
-        profile: "AJ + Español",
+        seleC:false,
+        seleT:false,
+        seleR:false,
+          profile: "AJ + Español",
         username: "ajplusespanol",
         content: `Laika fue elegida para viajar al espacio sabiendo que no resistiría.
         ¿Son éticas nuestras maneras de hacer ciencia? 
@@ -15,11 +18,15 @@ const feed = [
         blocked: false,
         profileUrl:`https://avatarfiles.alphacoders.com/107/107749.png`,
         date:"12/07/2020",
+        showContextM: false,
         time:"00:00",
 
     },
     {
-        profile: "Elon Musk",
+        seleC:false,
+        seleT:false,
+        seleR:false,
+          profile: "Elon Musk",
         username: "elonmusk",
         content: `Several thousand more Starlink beta participation invitations going out this week.
         `,
@@ -32,10 +39,11 @@ const feed = [
         blocked: false,
         profileUrl:`https://i.pinimg.com/originals/5a/84/67/5a8467ff034a489cedc5c37fd1bdff17.png`,
         date:"12/07/2020",
+        showContextM: false,
         time:"00:00",
     },
     {
-        profile: "Google",
+        selected:false,  profile: "Google",
         username: "google",
         content: `20 years ago today the first crew of astronauts and researchers arrived at the International Space Station, forever changing how we explore space. Cohete Celebrate #SpaceStation20th with @NASA
         & @GoogleArts by exploring a 3D model of the`,
@@ -51,6 +59,7 @@ const feed = [
         time:"00:00",
     },
     {
+        selected:false, 
         profile: "LeBron James",
         username: "KingJames",
         content: `Y’all see the setup right???!!!`,
@@ -66,6 +75,7 @@ const feed = [
         time:"00:00",
     },
     {
+        selected:false,  
         profile: "BBC Breaking News",
         username: "BBCBreaking",
         content: `Prince William contracted Covid-19 in April at a similar time to his father Prince Charles, palace sources tell BBC
@@ -82,7 +92,7 @@ const feed = [
         time:"14:00",
     },
     {
-        profile: "NVIDIA GeForce",
+       selected:false,   profile: "NVIDIA GeForce",
         username: "NVIDIAGeForce",
         content: `Hitch a ride on the RTX Battle Bus!
         Experience Fortnite in a new light with NVIDIA ray traced shadows, global illumination and ambient occlusion. 
@@ -99,6 +109,7 @@ const feed = [
         time:"00:00",
     },
     {
+        Selected:false,
         profile: "National Geographic",
         username: "NatGeo",
         content: `What's the most soothing experience you've had in nature? (Bonus points if you have a photo or video)`,
@@ -115,7 +126,7 @@ const feed = [
 
     },
     {
-        profile: "Hipertextual",
+       selected:false,   profile: "Hipertextual",
         username: "Hipertextual",
         content: `Cinco recomendaciones, y una sorpresa, para ver en Netflix en noviembre`,
         interaction: {
@@ -130,7 +141,7 @@ const feed = [
         time:"00:00",
     },
     {
-        profile: "Hipertextual",
+        selected:false,  profile: "Hipertextual",
         username: "Hipertextual",
         content: `Cinco recomendaciones, y una sorpresa, para ver en Netflix en noviembre`,
         interaction: {
@@ -144,7 +155,7 @@ const feed = [
         date:"03/06/2020",
         time:"12:00",
     },{
-        profile: "Real Madrid C.F.",
+        selected:false,  profile: "Real Madrid C.F.",
         username: "realmadrid",
         content: `¡El capitán, @SergioRamos, alcanza la cifra de 1️⃣0️⃣0️⃣ goles con la camiseta del 
         @RealMadrid! #RealFootball | #HalaMadrid`,
@@ -160,7 +171,7 @@ const feed = [
         time:"00:00",
     },
     {
-        profile: "UEFA Champions League",
+        selected:false,  profile: "UEFA Champions League",
         username: "ChampionsLeague",
         content: `Bayern have won their last 13 Champions League games... #UCL`,
         interaction: {
@@ -175,7 +186,7 @@ const feed = [
         time:"23:50",
     },
     {
-        profile: "FC Barcelona",
+        selected:false,  profile: "FC Barcelona",
         username: "FCBarcelona_es",
         content: `¡La 
         @LigadeCampeones no se detiene!
@@ -193,7 +204,7 @@ const feed = [
         time:"13:00",
     },
     {
-        profile: "Youtube",
+       selected:false,   profile: "Youtube",
         username: "Youtube",
         content: `Drop links to the videos that are helping you right now`,
         interaction: {
