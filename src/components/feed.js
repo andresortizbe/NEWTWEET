@@ -107,7 +107,7 @@ class Feed extends React.Component {
                                 content={tweet.content}
                                 time={tweet.time}
                                 date={tweet.date}
-                                comments={tweet.interaction.comments}
+                                comments={update(tweet.interaction.comments)}
                                 likes={update(tweet.interaction.likes)}
                                 retweets={update(tweet.interaction.retweets)}
                                 selectedC={this.selectedComments}
