@@ -2,13 +2,15 @@ import React from 'react';
 import PostTweet from '../postTweet/post-tweet';
 import Feed from '../feed';
 import './styles.css';
+import {feed} from '../source';
 
 class PrimaryCol extends React.Component {
     constructor() {
         super();
         this.state = {
            newTweet: "",
-           newMessage:""
+           newMessage:"",
+           tweets: feed
         }
     
     }
@@ -19,7 +21,9 @@ class PrimaryCol extends React.Component {
         this.setState({newTweet:message});
       }
       sendMessage = () => {
-          console.log("enviando tweet")
+            const tweetClone = JSON.parse(JSON.stringify(this.state.tweets));
+             
+         
         //Copiamos el arreglo de mensajes
         // const messagesClone = [...this.state.messages];
         const newMessageObj = {
@@ -41,7 +45,8 @@ class PrimaryCol extends React.Component {
             date: "12/07/2020",
             time: "00:00",
         };
-      
+        tweetClone.push(newMessageObj);
+        this.setState({tweets:tweetClone}) 
         this.setState({ newMessage: newMessageObj, newTweet: "" });
       };
     
@@ -54,7 +59,7 @@ class PrimaryCol extends React.Component {
                 newTweet={this.state.newTweet}
                 click={this.sendMessage}
                 />
-                <Feed newMessage={this.state.newMessage} />
+                <Feed newMessage={this.state.newMessage} tweets={this.state.tweets} />
             </div>
         );
         }

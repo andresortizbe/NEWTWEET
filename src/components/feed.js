@@ -8,13 +8,7 @@ var auxco;
 
 
 class Feed  extends React.Component  {
-    constructor() {
-        super();
-        this.state = {
-            tweets: feed
-            
-        }
-    }
+    
     removeTweet = (index) => {
         //Clonar la lista de objetos
         let Clone = [...this.state.tweets];
@@ -87,13 +81,7 @@ class Feed  extends React.Component  {
             }   
         
        }
-    addNewTweet=(tweetNew)=>
-    {
-        const tweetClone = JSON.parse(JSON.stringify(this.state.tweets));
-        tweetClone.push(tweetNew);
-        this.setState({tweets:tweetClone})
-    }
- 
+    
  
     render() {
          const contextFn = {
