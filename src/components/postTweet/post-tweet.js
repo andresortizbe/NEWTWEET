@@ -1,20 +1,34 @@
 import React from 'react';
 import './styles.css';
 
-const PostTweet = (props) => {
+function PostTweet(props) {
+
     return (
         <div>
             <div className="t-row t-post-tweet">
                 <div className="t-profile-img">
-                    <img src={props.profileUrl}  alt="profile" />
+                    <img src={props.profileUrl} alt="profile" />
                 </div>
                 <form>
-                    <input placeholder="¿Qué está pasando?" />
+                    <input
+                        id="btn-input"
+                        type="text"
+                        className="form-control input-sm"
+                        placeholder="Escribe tu mensaje aquí"
+                        value={props.newTweet}
+                        onChange={props.handleInput}
+                    />
                     <div className="t-post-options">
-                        <button>Twittear</button>
+                        <button
+                            className="btn btn-warning btn-sm"
+                            id="btn-chat"
+                            onClick={props.click}
+                        >
+                           Twittear
+        </button>
                     </div>
                 </form>
-                
+
             </div>
         </div>
     )

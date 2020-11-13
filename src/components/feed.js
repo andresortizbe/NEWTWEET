@@ -7,11 +7,12 @@ let aux;
 var auxco;
 
 
-class Feed extends React.Component {
+class Feed  extends React.Component  {
     constructor() {
         super();
         this.state = {
             tweets: feed
+            
         }
     }
     removeTweet = (index) => {
@@ -86,17 +87,26 @@ class Feed extends React.Component {
             }   
         
        }
+    addNewTweet=(tweetNew)=>
+    {
+        const tweetClone = JSON.parse(JSON.stringify(this.state.tweets));
+        tweetClone.push(tweetNew);
+        this.setState({tweets:tweetClone})
+    }
+ 
  
     render() {
          const contextFn = {
             toggleContextMenuFn: this.toggleContextMenu,
             removeTweetFn: this.removeTweet,
+               
         }
         return (
+            
             <div>
                 {
+                    
                     this.state.tweets.map( (tweet,index) => {
-                       var auxco=update(tweet.interaction.comments);
                         return (
                             <Tweet
                                 key={index}
