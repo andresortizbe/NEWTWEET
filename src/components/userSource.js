@@ -63,7 +63,7 @@ const users = [
         id:11,
         profile: "The Joker",
         username: "JokerHatesBat",
-        profileImg: `hhttps://e7.pngegg.com/pngimages/779/911/png-clipart-lego-the-joker-mini-figure-joker-lego-batman-the-videogame-lego-batman-2-dc-super-heroes-movies-heroes-fictional-character-thumbnail.png`,
+        profileImg: `https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c12b37e1-9561-46df-8cd5-abb73d13edd1/d1i58b4-c5cb1d0a-eb50-4af9-9036-4e607d54e4cd.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzEyYjM3ZTEtOTU2MS00NmRmLThjZDUtYWJiNzNkMTNlZGQxXC9kMWk1OGI0LWM1Y2IxZDBhLWViNTAtNGFmOS05MDM2LTRlNjA3ZDU0ZTRjZC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.ojQzjDQC-9yL_SUU-C9YSTwr-v_jGLAeCOZ4ffKHCkY`,
     },
     {
         id:12,
@@ -85,9 +85,9 @@ const users = [
     },
     {
         id:15,
-        profile: "Ken Fight",
-        username: "Kenneth Jhis",
-        profileImg: `https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT_JmXsjhIcyXgF32xOHGDlN6uKCDoG1UE8rg&usqp=CAU`,
+        profile: "Riuk Shinigami",
+        username: "iloveapples",
+        profileImg: `https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTi2YCTPC8A1LJZubIw3cMZTikWr468QlbMNw&usqp=CAU`,
     },
     {
         id:16,
@@ -103,9 +103,9 @@ const users = [
     },
     {
         id:18,
-        profile: "Ken Fight",
-        username: "Kenneth Jhis",
-        profileImg: `https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTivBOjSZsusiTyWCGhwNZAnHrgxlceMmLhQA&usqp=CAU`,
+        profile: "Batman",
+        username: "TheBatman",
+        profileImg: `https://i.pinimg.com/originals/46/00/57/46005760e0544bcadaaee9b92387e8b8.png`,
     },
     {
         id:19,
@@ -123,6 +123,103 @@ const users = [
         profile: "Monica Avila",
         username: "monicaAvila",
         profileImg: `https://www.seekpng.com/png/detail/54-545802_freeuse-miku-transparent-avatar-hatsune-miku-hd-png.png`,
+    },
+     
+    {
+        id:22,
+        profile: "Lex Luthor",
+        username: "IhateSuperMan",
+        profileImg: `https://img.icons8.com/color/452/lex-luthor.png`,
+    
+    },
+    {
+        id:23,
+        profile: "AJ + Español",
+        username: "ajplusespanol",
+        profileImg: `https://upload.wikimedia.org/wikipedia/ar/5/5f/AJ%2B_logo.png`,
+    
+
+    },
+    {
+        id:24,
+        profile: "Elon Musk",
+        username: "elonmusk",
+        profileImg: `https://thumbnail.imgbin.com/10/8/9/imgbin-elon-musk-tesla-motors-tesla-model-3-spacex-tesla-dJ5CpnLwMCeHCuT7A11U0JV38_t.jpg`,
+     },
+    {
+        id:25,
+        profile: "Google",
+        username: "google",
+        profileImg: `https://w7.pngwing.com/pngs/229/438/png-transparent-google-logo-adsense-google-adwords-history-company-text-logo.png`,
+      },
+    {
+        id:26,
+        profile: "LeBron James",
+        username: "KingJames",
+        profileImg: `https://i.pinimg.com/originals/b0/21/69/b0216941a4c8a4d0ee4529790f3bc808.png`,
+      },
+    {
+        id:27,
+        profile: "BBC Breaking News",
+        username: "BBCBreaking",
+        profileImg: `https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1DjKpqcXkcj1ijfCLyAgoiD7Zv-ATYvP8Cw&usqp=CAU`,
+    
+    },
+    {
+        id:28,
+        profile: "NVIDIA GeForce",
+        username: "NVIDIAGeForce",
+        profileImg: `https://avatarfiles.alphacoders.com/175/thumb-175567.png`,
+         },
+    {
+        id:29,
+        profile: "National Geographic",
+        username: "NatGeo",
+        profileImg: `https://img.favpng.com/18/6/20/owl-computer-icons-national-geographic-animal-jam-clip-art-png-favpng-hzp2vusnPLVC6uGRrBffquxuU.jpg`,
+        
+
+    },
+    {
+        id:30,
+        profile: "Hipertextual",
+        username: "Hipertextual",
+        profileImg: `https://hipertextual.com/files/2020/06/hipertextual-2020380252-270x270.png`,
+        
+    },
+    {
+        id:31,
+        profile: "Hipertextual",
+        username: "Hipertextual",
+        profileImg: `https://hipertextual.com/files/2020/06/hipertextual-2020380252-270x270.png`,
+        
+    }, {
+         
+        id:32,
+        profile: "Real Madrid C.F.",
+        username: "realmadrid",
+        profileImg: `https://avatarfiles.alphacoders.com/127/127291.png`,
+        
+    },
+    {
+        id:33,
+        profile: "UEFA",
+        username: "ChampionsLeague",
+        profileImg: `https://logodownload.org/wp-content/uploads/2017/05/uefa-champions-league-logo.png`,
+        
+    },
+    {
+        id:34,
+        profile: "FC Barcelona",
+        username: "FCBarcelona_es",
+        profileImg: `https://avatarfiles.alphacoders.com/160/160274.jpg`,
+        
+    },
+    {
+        id:35,
+        profile: "Youtube",
+        username: "Youtube",
+        profileImg: `https://i.pinimg.com/originals/f0/bf/e6/f0bfe6f3b051934eb67b1b49e9481be4.png`,
+        
     }
 
     

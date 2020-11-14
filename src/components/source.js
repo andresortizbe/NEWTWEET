@@ -25,7 +25,7 @@ const feed = [
         seleT: false,
         seleR: false,
         profile: "Lex Luthor",
-        username: "IhateSUperMan",
+        username: "IhateSuperMan",
         content: `Unos pueden leer Guerra y Paz y cerrar el libro creyendo que han leído una novela de aventuras, otros pueden leer los ingredientes de una pastilla de chicle y descifrar los secretos del universo.        `,
         interaction: {
             comments: 5,
@@ -78,7 +78,7 @@ const feed = [
         },
         verified: true,
         blocked: false,
-        profileUrl: `https://p7.hiclipart.com/preview/985/126/397/elon-musk-tesla-motors-solarcity-sticker-standing-clipart-thumbnail.jpg`,
+        profileUrl: `https://thumbnail.imgbin.com/10/8/9/imgbin-elon-musk-tesla-motors-tesla-model-3-spacex-tesla-dJ5CpnLwMCeHCuT7A11U0JV38_t.jpg`,
         date: "12/07/2020",
         showContextM: false,
         time: "00:00",
@@ -279,7 +279,7 @@ const feed = [
         },
         verified: true,
         blocked: true,
-        profileUrl: `https://www.google.com/imgres?imgurl=http%3A%2F%2Fassets.stickpng.com%2Fimages%2F580b57fcd9996e24bc43c545.png&imgrefurl=https%3A%2F%2Fwww.stickpng.com%2Fes%2Fimg%2Ficonos-logotipos-emojis%2Fcompanias-technologicas%2Flogo-youtube-play&tbnid=uwuCyP4IVRyT1M&vet=12ahUKEwim_JK89oDtAhXGBlkKHRAkDVEQMygAegUIARDMAQ..i&docid=7zRIoCnaYVPuHM&w=1024&h=721&q=youtube%20%20png&hl=es-419&ved=2ahUKEwim_JK89oDtAhXGBlkKHRAkDVEQMygAegUIARDMAQ`,
+        profileUrl: `https://i.pinimg.com/originals/f0/bf/e6/f0bfe6f3b051934eb67b1b49e9481be4.png`,
         date: "28/07/2020",
         time: "12:40",
     }
