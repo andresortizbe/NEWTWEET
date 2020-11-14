@@ -42,6 +42,7 @@ class Search extends React.Component {
              {
                     //Renderizado condicional con operador ternario y operador condicional &&
                 }
+                <div className="genCon">
                 {
                     this.state.show && (<SearchDrop users={this.state.users} sUser={this.state.searchUser} />) 
                 }
@@ -49,7 +50,7 @@ class Search extends React.Component {
                     /* props.showContextM && <ContextMenu /> */
                 }
                 
-            
+                </div>
             
             </div>
 

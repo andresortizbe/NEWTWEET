@@ -17,7 +17,7 @@ export default function SearchDrop(props)  {
                         .map((user) => {
                             return (
                                 
-
+                            
                                 <div className="userCon">
                                     <img
                                         className="profile-avatar"
@@ -29,6 +29,7 @@ export default function SearchDrop(props)  {
                                         <h5 className="userName">@{user.username}</h5>
                                     </div>
                                 </div>
+                            
 
                             );
                         })}

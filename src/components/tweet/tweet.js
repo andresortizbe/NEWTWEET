@@ -28,7 +28,7 @@ class Tweet extends React.Component {
                     </div>
                     <div className="c2">
                         <h6>{this.props.profile}</h6>
-                        <h6>{this.props.username}</h6>
+                        <h6>@{this.props.username}</h6>
                     </div>
                     <div className="c3">
                         <h5>{this.props.time}</h5>
