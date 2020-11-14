@@ -9,7 +9,7 @@ function PostTweet(props) {
                 <div className="t-profile-img">
                     <img src={props.profileUrl} alt="profile" />
                 </div>
-                <form>
+                <div className="group">
                     <input
                         id="btn-input"
                         type="text"
@@ -27,7 +27,7 @@ function PostTweet(props) {
                            Twittear
         </button>
                     </div>
-                </form>
+                </div>
 
             </div>
         </div>

@@ -10,7 +10,7 @@ class Trend extends React.Component {
         super();
         this.state = {
                 
-                WhatHap:happen,
+                WhatHap:happen
         
         }
     }

@@ -1,21 +1,59 @@
 import React from 'react';
 import './whatSty.css';
+import { users } from '../userSource';
+import SearchDrop from './searchdrop'
 class Search extends React.Component {
-    constructor() 
-         {
-             super();
-         }
-    
+    constructor() {
+        super();
+        this.state = {
+            users: users,
+            searchUser: "",
+            show:false
+            
+        }
 
-    render() 
+    }
+    handleSearch = (evento) => {
+        this.setState({})
+        //Capturar lo que está escribiendo el usuario
+        const user = evento.target.value;
+        if (user=="")
         {
-    return (
+        this.setState({ searchUser: "" ,show:false});
+        }
+        else
+        {
+            this.setState({ searchUser: user, show:true });
+        }
+    };
+
+
+    render() {
+        return (
         <div class="demo">
-        <form class=".t-form">
-                    <input placeholder="Search" />
-        </form>
-      </div> 
-              
+                <input
+                    type="text"
+                    className="form-control"
+                    id="formGroupExampleInput"
+                    placeholder="Usuario"
+                    onChange={this.handleSearch}
+                    value={this.state.searchUser}
+                />
+             {
+                    //Renderizado condicional con operador ternario y operador condicional &&
+                }
+                {
+                    this.state.show && (<SearchDrop users={this.state.users} sUser={this.state.searchUser} />) 
+                }
+                {
+                    /* props.showContextM && <ContextMenu /> */
+                }
+                
+            
+            
+            </div>
+
+
         );
     }
 }
