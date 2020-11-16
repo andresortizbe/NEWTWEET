@@ -11,8 +11,10 @@
       ". . . ."
       ". . . .";
   }
-  .searchbar { grid-area: searchbar; }
+  .searchbar { grid-area: searchbar;
+   border-radius: 25px; }
   .title { grid-area: title; }
   .subtitle { grid-area: subtitle; }
   .image { grid-area: image; }
   .content { grid-area: content; }
+ 

@@ -5,7 +5,8 @@ import './whatSty.css';
 class WhatHap extends React.Component {
     render() {
         return (
-            <div class="what">
+            
+            <div class="what cardT">
             <div class="title">{this.props.title}</div>
             <div class="subtitle">{this.props.subtitle}</div>
             <div class="image"><img class="contImg"src={this.props.imageUrl} alt="perfil"></img></div>

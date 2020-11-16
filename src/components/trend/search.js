@@ -2,6 +2,7 @@ import React from 'react';
 import './whatSty.css';
 import { users } from '../userSource';
 import SearchDrop from './searchdrop'
+import {SearchCircleSolid} from "@graywolfai/react-heroicons";
 class Search extends React.Component {
     constructor() {
         super();
@@ -17,7 +18,7 @@ class Search extends React.Component {
         this.setState({})
         //Capturar lo que está escribiendo el usuario
         const user = evento.target.value;
-        if (user=="")
+        if (user==="")
         {
         this.setState({ searchUser: "" ,show:false});
         }
@@ -33,12 +34,13 @@ class Search extends React.Component {
         <div class="demo">
                 <input
                     type="text"
-                    className="form-control"
+                    className="search-Bar"
                     id="formGroupExampleInput"
-                    placeholder="Usuario"
+                    placeholder="   Busqueda"
                     onChange={this.handleSearch}
                     value={this.state.searchUser}
                 />
+                <div className="contImgS"><SearchCircleSolid/></div>
              {
                     //Renderizado condicional con operador ternario y operador condicional &&
                 }

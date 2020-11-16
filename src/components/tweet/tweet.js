@@ -8,11 +8,12 @@ import {
 } from "@graywolfai/react-heroicons";
 import ContextMenu from '../contextMenu/context-menu';
 
+
 class Tweet extends React.Component {
     render() {
         return (
             
-            <div className="tweet-container">
+            <div className="tweet-container card">
                 <div className="contextual-container">
                     <div className="contextual-menu" onClick={() => this.props.contextFn.toggleContextMenuFn(this.props.indice)} >
                         <DotsVerticalOutline />

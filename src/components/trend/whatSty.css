@@ -32,21 +32,23 @@
   }
   .headTitle
   {
-   text-align: left;
+   text-align: center;
+   
   }
   .category { grid-area: category;margin-top: -20px; }
   
   .notweets { grid-area: notweets;margin-top: -20px; }
   
-  .demo form{
+  
     
-    width: 100px;
-    
-}
+
 .demo
 {
   margin-left: 2px;
   margin-top: 15px;
+  display: grid;
+  grid-template-columns: 0.8fr 0.2fr;
+  grid-template-rows: 1Fr;
   
 }
 
@@ -114,3 +116,49 @@
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color:#A9D0F5;
 }
+.cardT {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  width: 85%;
+  height: 85%;
+  cursor: pointer;
+  
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  cursor: pointer;
+  
+}
+.search-Bar
+{ 
+  margin-left: 1em;
+  border: 2px solid #999;
+  font-size: 1.3em;
+  width: 90%;
+  height: 50%;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(8, 11, 223, 0.2);
+  transition: 0.3s;
+  border-radius:30px;
+}
+.search-Bar:hover {
+  box-shadow: 0 8px 16px 0 rgba(133, 9, 9, 0.2);
+  cursor: pointer;
+  
+}
+.contImgS{
+  
+    width: 70%;
+    padding: 0.8em;
+    cursor: pointer;
+    transition: .2s all;
+    border-radius: 50%;
+    margin-left: -20%;
+    margin-top: -26%;
+  }
+

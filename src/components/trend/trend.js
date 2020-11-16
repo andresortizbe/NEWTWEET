@@ -9,8 +9,7 @@ class Trend extends React.Component {
     constructor() {
         super();
         this.state = {
-                
-                WhatHap:happen
+        WhatHap:happen
         
         }
     }
@@ -23,8 +22,10 @@ class Trend extends React.Component {
                     
                     <div>
                         <Search />
+                        
                         <h2 class="headTitle">Qué Está Pasando</h2> 
                         { 
+                        
                          this.state.WhatHap.map( whath => {
                                 return (
                                     <WhatHap 
@@ -40,6 +41,7 @@ class Trend extends React.Component {
                             })
                         }
                         
+                    
                     </div>
                 );
             }
