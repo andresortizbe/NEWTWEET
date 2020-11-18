@@ -26,7 +26,7 @@ const feed = [
         seleR: false,
         profile: "Lex Luthor",
         username: "IhateSuperMan",
-        content: `Unos pueden leer Guerra y Paz y cerrar el libro creyendo que han leído una novela de aventuras, otros pueden leer los ingredientes de una pastilla de chicle y descifrar los secretos del universo.        `,
+        content: `Unos pueden leer "La Guerra y La Paz", Luego cerrar el libro creyendo que han leído una novela de aventuras, otros pueden leer los ingredientes de una pastilla de chicle y descifrar los secretos del universo.        `,
         interaction: {
             comments: 5,
             retweets: 66,
