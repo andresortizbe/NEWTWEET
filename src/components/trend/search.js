@@ -31,7 +31,7 @@ class Search extends React.Component {
 
     render() {
         return (
-        <div class="demo">
+        <div className="demo">
                 <input
                     type="text"
                     className="search-Bar"

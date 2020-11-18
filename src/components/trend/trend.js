@@ -23,12 +23,13 @@ class Trend extends React.Component {
                     <div>
                         <Search />
                         
-                        <h2 class="headTitle">Qué Está Pasando</h2> 
+                        <h2 className="headTitle">Qué Está Pasando</h2> 
                         { 
                         
-                         this.state.WhatHap.map( whath => {
+                         this.state.WhatHap.map((whath,index) => {
                                 return (
                                     <WhatHap 
+                                        key={index}
                                         title={whath.title}
                                         subtitle={whath.subtitle}
                                         content={whath.content}

@@ -160,8 +160,8 @@ const users = [
       },
     {
         id:27,
-        profile: "BBC Breaking News",
-        username: "BBCBreaking",
+        profile: "BBC",
+        username: "BBCB",
         profileImg: `https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR1DjKpqcXkcj1ijfCLyAgoiD7Zv-ATYvP8Cw&usqp=CAU`,
     
     },

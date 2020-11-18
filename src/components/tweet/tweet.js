@@ -42,13 +42,13 @@ class Tweet extends React.Component {
                         {this.props.content}
                     </p>
                 </div>
-                <div class="interact-container">
-                    <div class="contInt" onClick={() => this.props.selectedC(this.props.indice)}> < AnnotationSolid /> </div>
-                    <div class="comments" ><h6 class="barTweet">{this.props.comments}</h6></div>
-                    <div class="contInt" onClick={() => this.props.selectedR(this.props.indice)}>< ShareSolid /></div>
-                    <div class="share"><h6 class="barTweet">{this.props.retweets}</h6></div>
-                    <div class="contInt" onClick={() => this.props.selectedL(this.props.indice)}>< HeartSolid /></div>
-                    <div class="likes"> <h6 class="barTweet">{this.props.likes} </h6></div>
+                <div className="interact-container">
+                    <div className="contInt" onClick={() => this.props.selectedC(this.props.indice)}> < AnnotationSolid /> </div>
+                    <div className="comments" ><h6 className="barTweet">{this.props.comments}</h6></div>
+                    <div className="contInt" onClick={() => this.props.selectedR(this.props.indice)}>< ShareSolid /></div>
+                    <div className="share"><h6 className="barTweet">{this.props.retweets}</h6></div>
+                    <div className="contInt" onClick={() => this.props.selectedL(this.props.indice)}>< HeartSolid /></div>
+                    <div className="likes"> <h6 className="barTweet">{this.props.likes} </h6></div>
                 </div>
                 </div>
             

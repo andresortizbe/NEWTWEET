@@ -100,6 +100,12 @@ class PrimaryCol extends React.Component {
          
         //Copiamos el arreglo de mensajes
         // const messagesClone = [...this.state.messages];
+        var moment = require('moment');
+       
+        //const hora=(hoy.getDate()+1)+"-"+hoy.getMinutes();
+        
+        const dia=moment().subtract(10, 'days').calendar();
+        const hora=moment().format('h:mm A');
         const newMessageObj = {
           
             seleC: false,
@@ -116,8 +122,9 @@ class PrimaryCol extends React.Component {
             verified: true,
             blocked: false,
             profileUrl: `https://www.guiltybit.com/wp-content/uploads/2013/02/legobatman2.png`,
-            date: "12/07/2020",
-            time: "00:00",
+            
+            date: dia,
+            time: hora,
         };
         
         tweetClone.push(newMessageObj);
