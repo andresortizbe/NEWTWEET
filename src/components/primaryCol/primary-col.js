@@ -90,11 +90,10 @@ class PrimaryCol extends React.Component {
     handleInput = (evento) => {
         //Capturar lo que está escribiendo el usuario
         const message = evento.target.value;
-        console.log(message);
         this.setState({newTweet:message});
       }
       sendMessage = () => {
-        console.log("enviando Mensaje");    
+          
         //const tweetClone = JSON.parse(JSON.stringify(this.state.tweets));
         const tweetClone=[];
          
